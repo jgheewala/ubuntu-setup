@@ -18,9 +18,5 @@ wget http://www.vim.org/scripts/download_script.php?src_id=9818
 
 cd ~/.vim/plugin/
 git clone https://github.com/fholgado/minibufexpl.vim.git
-cd plugin/
-cp *.vim ../
-cd ../
-rm -rf plugin/
 cd
 
