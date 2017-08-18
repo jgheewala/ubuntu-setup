@@ -14,7 +14,12 @@ git clone https://github.com/fatih/vim-go.git
 git clone https://github.com/garyburd/go-explorer.git
 
 cd ~/.vim/colors
-wget http://www.vim.org/scripts/download_script.php?src_id=9818
+git clone https://github.com/vim-scripts/proton.git
+cd proton/colors
+cp *.vim ~/.vim/colors/
+cd ~/.vim/colors/
+rm -rf proton
+
 
 cd ~/.vim/plugin/
 git clone https://github.com/fholgado/minibufexpl.vim.git
