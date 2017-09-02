@@ -20,6 +20,12 @@ cp *.vim ~/.vim/colors/
 cd ~/.vim/colors/
 rm -rf proton
 
+cd ~/.vim/colors 
+git clone https://github.com/tomasr/molokai.git
+cd molokai/colors
+cp *.vim ~/.vim/colors/
+cd ~/.vim/colors/
+rm -rf molokai
 
 cd ~/.vim/plugin/
 git clone https://github.com/fholgado/minibufexpl.vim.git
