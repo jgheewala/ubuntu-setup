@@ -36,8 +36,9 @@ git clone https://github.com/airblade/vim-gitgutter
 cd ~/.vim/bundle
 git clone https://github.com/majutsushi/tagbar
 
-# installing vim-airline
+# installing vim-airline and its theme
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
 
 ### commenting out proton color scheme
 #cd ~/.vim/colors
