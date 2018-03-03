@@ -15,6 +15,9 @@ git clone https://github.com/Valloric/YouCompleteMe.git
 git clone https://github.com/fatih/vim-go.git
 git clone https://github.com/garyburd/go-explorer.git
 
+# installing auto-pair plugin support for vim
+git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
+
 # install YouCompleteMe
 # sudo apt-get install build-essential cmake
 cd ~/.vim/bundle/YouCompleteMe 
