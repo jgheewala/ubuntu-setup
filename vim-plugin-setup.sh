@@ -11,7 +11,7 @@ mkdir plugin
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
 
 cd ~/.vim/bundle
-git clone git@github.com:Valloric/YouCompleteMe.git
+git clone https://github.com/Valloric/YouCompleteMe.git
 git clone https://github.com/fatih/vim-go.git
 git clone https://github.com/garyburd/go-explorer.git
 
