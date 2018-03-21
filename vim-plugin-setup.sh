@@ -24,11 +24,11 @@ cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ./install.py --clang-completer --go-completer
 
-# install NerdTree
-#git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 # installing vim git support
 cd ~/.vim/bundle
+# install NerdTree
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/tpope/vim-fugitive
 # installing vim tagbar
 # sudo apt-get install ctags
