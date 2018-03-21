@@ -25,17 +25,14 @@ git submodule update --init --recursive
 ./install.py --clang-completer --go-completer
 
 # install NerdTree
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+#git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
-# installing vim-gitgutter
+# installing vim git support
 cd ~/.vim/bundle
-git clone https://github.com/airblade/vim-gitgutter
-
+git clone https://github.com/tpope/vim-fugitive
 # installing vim tagbar
 # sudo apt-get install ctags
-cd ~/.vim/bundle
 git clone https://github.com/majutsushi/tagbar
-
 # installing vim-airline and its theme
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
@@ -55,6 +52,6 @@ cp *.vim ~/.vim/colors/
 cd ~/.vim/colors/
 rm -rf molokai
 
-cd ~/.vim/plugin/
-git clone https://github.com/fholgado/minibufexpl.vim.git
-cd
+#cd ~/.vim/plugin/
+#git clone https://github.com/fholgado/minibufexpl.vim.git
+#cd
