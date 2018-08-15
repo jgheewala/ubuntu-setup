@@ -1,5 +1,19 @@
 # https://vimawesome.com/
-sudo apt-get install build-essential cmake ctags
+unameOut="$(uname -s)"
+case "${unameOut}" in
+    Linux*)     machine=Linux;;
+    Darwin*)    machine=Mac;;
+    CYGWIN*)    machine=Cygwin;;
+    MINGW*)     machine=MinGw;;
+    *)          machine="UNKNOWN:${unameOut}"
+esac
+echo ${machine}
+
+if [ "$machine" == "Linux" ]; then
+   sudo apt-get install build-essential cmake ctags
+elif [ "$machine" == "Mac" ]; then
+   echo "MAC ignore"
+fi
 cd
 mkdir .vim
 cd .vim
